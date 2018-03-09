@@ -1,0 +1,72 @@
+{
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "properties": {
+    "title": {
+      "$id": "/properties/title",
+      "type": "string",
+      "title": "The Title Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "Geostorm"
+      ]
+    },
+    "year": {
+      "$id": "/properties/year",
+      "type": "integer",
+      "title": "The Year Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0,
+      "examples": [
+        2016
+      ]
+    },
+    "director": {
+      "$id": "/properties/director",
+      "type": "string",
+      "title": "The Director Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "Dean Devlin"
+      ]
+    },
+    "cast": {
+      "$id": "/properties/cast",
+      "type": "array",
+      "items": {
+        "$id": "/properties/cast/items",
+        "type": "string",
+        "title": "The 0 Schema",
+        "description": "An explanation about the purpose of this instance.",
+        "default": "",
+        "examples": [
+          "Gerard Butler"
+        ]
+      }
+    },
+    "genre": {
+      "$id": "/properties/genre",
+      "type": "string",
+      "title": "The Genre Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "Action"
+      ]
+    },
+    "notes": {
+      "$id": "/properties/notes",
+      "type": "string",
+      "title": "The Notes Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "Warner Bros."
+      ]
+    }
+  }
+}
