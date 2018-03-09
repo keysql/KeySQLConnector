@@ -1,0 +1,766 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#", 
+  "definitions": {}, 
+  "id": "http://example.com/example.json", 
+  "properties": {
+    "_id": {
+      "id": "/properties/_id", 
+      "properties": {
+        "_oid": {
+          "default": "52b213b38594d8a2be17c780", 
+          "description": "An explanation about the purpose of this instance.", 
+          "examples": [
+            "52b213b38594d8a2be17c780"
+          ], 
+          "id": "/properties/_id/properties/_oid", 
+          "title": "The _oid schema.", 
+          "type": "string"
+        }
+      }, 
+      "type": "object"
+    }, 
+    "approvalfy": {
+      "default": "1999", 
+      "description": "An explanation about the purpose of this instance.", 
+      "examples": [
+        "1999"
+      ], 
+      "id": "/properties/approvalfy", 
+      "title": "The approvalfy schema.", 
+      "type": "string"
+    }, 
+    "board_approval_month": {
+      "default": "November", 
+      "description": "An explanation about the purpose of this instance.", 
+      "examples": [
+        "November"
+      ], 
+      "id": "/properties/board_approval_month", 
+      "title": "The board_approval_month schema.", 
+      "type": "string"
+    }, 
+    "boardapprovaldate": {
+      "default": "2013-11-12T00:00:00Z", 
+      "description": "An explanation about the purpose of this instance.", 
+      "examples": [
+        "2013-11-12T00:00:00Z"
+      ], 
+      "id": "/properties/boardapprovaldate", 
+      "title": "The boardapprovaldate schema.", 
+      "type": "string"
+    }, 
+    "borrower": {
+      "default": "FEDERAL DEMOCRATIC REPUBLIC OF ETHIOPIA", 
+      "description": "An explanation about the purpose of this instance.", 
+      "examples": [
+        "FEDERAL DEMOCRATIC REPUBLIC OF ETHIOPIA"
+      ], 
+      "id": "/properties/borrower", 
+      "title": "The borrower schema.", 
+      "type": "string"
+    }, 
+    "closingdate": {
+      "default": "2018-07-07T00:00:00Z", 
+      "description": "An explanation about the purpose of this instance.", 
+      "examples": [
+        "2018-07-07T00:00:00Z"
+      ], 
+      "id": "/properties/closingdate", 
+      "title": "The closingdate schema.", 
+      "type": "string"
+    }, 
+    "country_namecode": {
+      "default": "Federal Democratic Republic of Ethiopia!_!ET", 
+      "description": "An explanation about the purpose of this instance.", 
+      "examples": [
+        "Federal Democratic Republic of Ethiopia!_!ET"
+      ], 
+      "id": "/properties/country_namecode", 
+      "title": "The country_namecode schema.", 
+      "type": "string"
+    }, 
+    "countrycode": {
+      "default": "ET", 
+      "description": "An explanation about the purpose of this instance.", 
+      "examples": [
+        "ET"
+      ], 
+      "id": "/properties/countrycode", 
+      "title": "The countrycode schema.", 
+      "type": "string"
+    }, 
+    "countryname": {
+      "default": "Federal Democratic Republic of Ethiopia", 
+      "description": "An explanation about the purpose of this instance.", 
+      "examples": [
+        "Federal Democratic Republic of Ethiopia"
+      ], 
+      "id": "/properties/countryname", 
+      "title": "The countryname schema.", 
+      "type": "string"
+    }, 
+    "countryshortname": {
+      "default": "Ethiopia", 
+      "description": "An explanation about the purpose of this instance.", 
+      "examples": [
+        "Ethiopia"
+      ], 
+      "id": "/properties/countryshortname", 
+      "title": "The countryshortname schema.", 
+      "type": "string"
+    }, 
+    "docty": {
+      "default": "Project Information Document,Indigenous Peoples Plan,Project Information Document", 
+      "description": "An explanation about the purpose of this instance.", 
+      "examples": [
+        "Project Information Document,Indigenous Peoples Plan,Project Information Document"
+      ], 
+      "id": "/properties/docty", 
+      "title": "The docty schema.", 
+      "type": "string"
+    }, 
+    "envassesmentcategorycode": {
+      "default": "C", 
+      "description": "An explanation about the purpose of this instance.", 
+      "examples": [
+        "C"
+      ], 
+      "id": "/properties/envassesmentcategorycode", 
+      "title": "The envassesmentcategorycode schema.", 
+      "type": "string"
+    }, 
+    "grantamt": {
+      "default": 0, 
+      "description": "An explanation about the purpose of this instance.", 
+      "examples": [
+        "0"
+      ], 
+      "id": "/properties/grantamt", 
+      "title": "The grantamt schema.", 
+      "type": "integer"
+    }, 
+    "ibrdcommamt": {
+      "default": 0, 
+      "description": "An explanation about the purpose of this instance.", 
+      "examples": [
+        "0"
+      ], 
+      "id": "/properties/ibrdcommamt", 
+      "title": "The ibrdcommamt schema.", 
+      "type": "integer"
+    }, 
+    "id": {
+      "default": "P129828", 
+      "description": "An explanation about the purpose of this instance.", 
+      "examples": [
+        "P129828"
+      ], 
+      "id": "/properties/id", 
+      "title": "The id schema.", 
+      "type": "string"
+    }, 
+    "idacommamt": {
+      "default": 130000000, 
+      "description": "An explanation about the purpose of this instance.", 
+      "examples": [
+        "130000000"
+      ], 
+      "id": "/properties/idacommamt", 
+      "title": "The idacommamt schema.", 
+      "type": "integer"
+    }, 
+    "impagency": {
+      "default": "MINISTRY OF EDUCATION", 
+      "description": "An explanation about the purpose of this instance.", 
+      "examples": [
+        "MINISTRY OF EDUCATION"
+      ], 
+      "id": "/properties/impagency", 
+      "title": "The impagency schema.", 
+      "type": "string"
+    }, 
+    "lendinginstr": {
+      "default": "Investment Project Financing", 
+      "description": "An explanation about the purpose of this instance.", 
+      "examples": [
+        "Investment Project Financing"
+      ], 
+      "id": "/properties/lendinginstr", 
+      "title": "The lendinginstr schema.", 
+      "type": "string"
+    }, 
+    "lendinginstrtype": {
+      "default": "IN", 
+      "description": "An explanation about the purpose of this instance.", 
+      "examples": [
+        "IN"
+      ], 
+      "id": "/properties/lendinginstrtype", 
+      "title": "The lendinginstrtype schema.", 
+      "type": "string"
+    }, 
+    "lendprojectcost": {
+      "default": 550000000, 
+      "description": "An explanation about the purpose of this instance.", 
+      "examples": [
+        "550000000"
+      ], 
+      "id": "/properties/lendprojectcost", 
+      "title": "The lendprojectcost schema.", 
+      "type": "integer"
+    }, 
+    "majorsector_percent": {
+      "id": "/properties/majorsector_percent", 
+      "items": {
+        "id": "/properties/majorsector_percent/items", 
+        "properties": {
+          "Name": {
+            "default": "Education", 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "Education"
+            ], 
+            "id": "/properties/majorsector_percent/items/properties/Name", 
+            "title": "The name schema.", 
+            "type": "string"
+          }, 
+          "Percent": {
+            "default": 46, 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "46"
+            ], 
+            "id": "/properties/majorsector_percent/items/properties/Percent", 
+            "title": "The percent schema.", 
+            "type": "integer"
+          }
+        }, 
+        "type": "object"
+      }, 
+      "type": "array"
+    }, 
+    "mjsector_namecode": {
+      "id": "/properties/mjsector_namecode", 
+      "items": {
+        "id": "/properties/mjsector_namecode/items", 
+        "properties": {
+          "code": {
+            "default": "EX", 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "EX"
+            ], 
+            "id": "/properties/mjsector_namecode/items/properties/code", 
+            "title": "The code schema.", 
+            "type": "string"
+          }, 
+          "name": {
+            "default": "Education", 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "Education"
+            ], 
+            "id": "/properties/mjsector_namecode/items/properties/name", 
+            "title": "The name schema.", 
+            "type": "string"
+          }
+        }, 
+        "type": "object"
+      }, 
+      "type": "array"
+    }, 
+    "mjtheme": {
+      "id": "/properties/mjtheme", 
+      "items": {
+        "default": "Human development", 
+        "description": "An explanation about the purpose of this instance.", 
+        "examples": [
+          "Human development"
+        ], 
+        "id": "/properties/mjtheme/items", 
+        "title": "The 0 schema.", 
+        "type": "string"
+      }, 
+      "type": "array"
+    }, 
+    "mjtheme_namecode": {
+      "id": "/properties/mjtheme_namecode", 
+      "items": {
+        "id": "/properties/mjtheme_namecode/items", 
+        "properties": {
+          "code": {
+            "default": "8", 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "8"
+            ], 
+            "id": "/properties/mjtheme_namecode/items/properties/code", 
+            "title": "The code schema.", 
+            "type": "string"
+          }, 
+          "name": {
+            "default": "Human development", 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "Human development"
+            ], 
+            "id": "/properties/mjtheme_namecode/items/properties/name", 
+            "title": "The name schema.", 
+            "type": "string"
+          }
+        }, 
+        "type": "object"
+      }, 
+      "type": "array"
+    }, 
+    "mjthemecode": {
+      "default": "8,11", 
+      "description": "An explanation about the purpose of this instance.", 
+      "examples": [
+        "8,11"
+      ], 
+      "id": "/properties/mjthemecode", 
+      "title": "The mjthemecode schema.", 
+      "type": "string"
+    }, 
+    "prodline": {
+      "default": "PE", 
+      "description": "An explanation about the purpose of this instance.", 
+      "examples": [
+        "PE"
+      ], 
+      "id": "/properties/prodline", 
+      "title": "The prodline schema.", 
+      "type": "string"
+    }, 
+    "prodlinetext": {
+      "default": "IBRD/IDA", 
+      "description": "An explanation about the purpose of this instance.", 
+      "examples": [
+        "IBRD/IDA"
+      ], 
+      "id": "/properties/prodlinetext", 
+      "title": "The prodlinetext schema.", 
+      "type": "string"
+    }, 
+    "productlinetype": {
+      "default": "L", 
+      "description": "An explanation about the purpose of this instance.", 
+      "examples": [
+        "L"
+      ], 
+      "id": "/properties/productlinetype", 
+      "title": "The productlinetype schema.", 
+      "type": "string"
+    }, 
+    "project_abstract": {
+      "id": "/properties/project_abstract", 
+      "properties": {
+        "cdata": {
+          "default": "The development", 
+          "description": "An explanation about the purpose of this instance.", 
+          "examples": [
+            "The development"
+          ], 
+          "id": "/properties/project_abstract/properties/cdata", 
+          "title": "The cdata schema.", 
+          "type": "string"
+        }
+      }, 
+      "type": "object"
+    }, 
+    "project_name": {
+      "default": "Ethiopia General Education Quality Improvement Project II", 
+      "description": "An explanation about the purpose of this instance.", 
+      "examples": [
+        "Ethiopia General Education Quality Improvement Project II"
+      ], 
+      "id": "/properties/project_name", 
+      "title": "The project_name schema.", 
+      "type": "string"
+    }, 
+    "projectdocs": {
+      "id": "/properties/projectdocs", 
+      "items": {
+        "id": "/properties/projectdocs/items", 
+        "properties": {
+          "DocDate": {
+            "default": "28-AUG-2013", 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "28-AUG-2013"
+            ], 
+            "id": "/properties/projectdocs/items/properties/DocDate", 
+            "title": "The docdate schema.", 
+            "type": "string"
+          }, 
+          "DocType": {
+            "default": "PID", 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "PID"
+            ], 
+            "id": "/properties/projectdocs/items/properties/DocType", 
+            "title": "The doctype schema.", 
+            "type": "string"
+          }, 
+          "DocTypeDesc": {
+            "default": "Project Information Document (PID),  Vol.", 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "Project Information Document (PID),  Vol."
+            ], 
+            "id": "/properties/projectdocs/items/properties/DocTypeDesc", 
+            "title": "The doctypedesc schema.", 
+            "type": "string"
+          }, 
+          "DocURL": {
+            "default": "http://www-wds.worldbank.org/servlet/WDSServlet?pcont=details&eid=090224b081e545fb_1_0", 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "http://www-wds.worldbank.org/servlet/WDSServlet?pcont=details&eid=090224b081e545fb_1_0"
+            ], 
+            "id": "/properties/projectdocs/items/properties/DocURL", 
+            "title": "The docurl schema.", 
+            "type": "string"
+          }, 
+          "EntityID": {
+            "default": "090224b081e545fb_1_0", 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "090224b081e545fb_1_0"
+            ], 
+            "id": "/properties/projectdocs/items/properties/EntityID", 
+            "title": "The entityid schema.", 
+            "type": "string"
+          }
+        }, 
+        "type": "object"
+      }, 
+      "type": "array"
+    }, 
+    "projectfinancialtype": {
+      "default": "IDA", 
+      "description": "An explanation about the purpose of this instance.", 
+      "examples": [
+        "IDA"
+      ], 
+      "id": "/properties/projectfinancialtype", 
+      "title": "The projectfinancialtype schema.", 
+      "type": "string"
+    }, 
+    "projectstatusdisplay": {
+      "default": "Active", 
+      "description": "An explanation about the purpose of this instance.", 
+      "examples": [
+        "Active"
+      ], 
+      "id": "/properties/projectstatusdisplay", 
+      "title": "The projectstatusdisplay schema.", 
+      "type": "string"
+    }, 
+    "regionname": {
+      "default": "Africa", 
+      "description": "An explanation about the purpose of this instance.", 
+      "examples": [
+        "Africa"
+      ], 
+      "id": "/properties/regionname", 
+      "title": "The regionname schema.", 
+      "type": "string"
+    }, 
+    "sector": {
+      "id": "/properties/sector", 
+      "items": {
+        "id": "/properties/sector/items", 
+        "properties": {
+          "Name": {
+            "default": "Primary education", 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "Primary education"
+            ], 
+            "id": "/properties/sector/items/properties/Name", 
+            "title": "The name schema.", 
+            "type": "string"
+          }
+        }, 
+        "type": "object"
+      }, 
+      "type": "array"
+    }, 
+    "sector1": {
+      "id": "/properties/sector1", 
+      "properties": {
+        "Name": {
+          "default": "Primary education", 
+          "description": "An explanation about the purpose of this instance.", 
+          "examples": [
+            "Primary education"
+          ], 
+          "id": "/properties/sector1/properties/Name", 
+          "title": "The name schema.", 
+          "type": "string"
+        }, 
+        "Percent": {
+          "default": 46, 
+          "description": "An explanation about the purpose of this instance.", 
+          "examples": [
+            "46"
+          ], 
+          "id": "/properties/sector1/properties/Percent", 
+          "title": "The percent schema.", 
+          "type": "integer"
+        }
+      }, 
+      "type": "object"
+    }, 
+    "sector2": {
+      "id": "/properties/sector2", 
+      "properties": {
+        "Name": {
+          "default": "Secondary education", 
+          "description": "An explanation about the purpose of this instance.", 
+          "examples": [
+            "Secondary education"
+          ], 
+          "id": "/properties/sector2/properties/Name", 
+          "title": "The name schema.", 
+          "type": "string"
+        }, 
+        "Percent": {
+          "default": 26, 
+          "description": "An explanation about the purpose of this instance.", 
+          "examples": [
+            "26"
+          ], 
+          "id": "/properties/sector2/properties/Percent", 
+          "title": "The percent schema.", 
+          "type": "integer"
+        }
+      }, 
+      "type": "object"
+    }, 
+    "sector3": {
+      "id": "/properties/sector3", 
+      "properties": {
+        "Name": {
+          "default": "Public administration- Other social services", 
+          "description": "An explanation about the purpose of this instance.", 
+          "examples": [
+            "Public administration- Other social services"
+          ], 
+          "id": "/properties/sector3/properties/Name", 
+          "title": "The name schema.", 
+          "type": "string"
+        }, 
+        "Percent": {
+          "default": 16, 
+          "description": "An explanation about the purpose of this instance.", 
+          "examples": [
+            "16"
+          ], 
+          "id": "/properties/sector3/properties/Percent", 
+          "title": "The percent schema.", 
+          "type": "integer"
+        }
+      }, 
+      "type": "object"
+    }, 
+    "sector4": {
+      "id": "/properties/sector4", 
+      "properties": {
+        "Name": {
+          "default": "Tertiary education", 
+          "description": "An explanation about the purpose of this instance.", 
+          "examples": [
+            "Tertiary education"
+          ], 
+          "id": "/properties/sector4/properties/Name", 
+          "title": "The name schema.", 
+          "type": "string"
+        }, 
+        "Percent": {
+          "default": 12, 
+          "description": "An explanation about the purpose of this instance.", 
+          "examples": [
+            "12"
+          ], 
+          "id": "/properties/sector4/properties/Percent", 
+          "title": "The percent schema.", 
+          "type": "integer"
+        }
+      }, 
+      "type": "object"
+    }, 
+    "sector_namecode": {
+      "id": "/properties/sector_namecode", 
+      "items": {
+        "id": "/properties/sector_namecode/items", 
+        "properties": {
+          "code": {
+            "default": "EP", 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "EP"
+            ], 
+            "id": "/properties/sector_namecode/items/properties/code", 
+            "title": "The code schema.", 
+            "type": "string"
+          }, 
+          "name": {
+            "default": "Primary education", 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "Primary education"
+            ], 
+            "id": "/properties/sector_namecode/items/properties/name", 
+            "title": "The name schema.", 
+            "type": "string"
+          }
+        }, 
+        "type": "object"
+      }, 
+      "type": "array"
+    }, 
+    "sectorcode": {
+      "default": "ET,BS,ES,EP", 
+      "description": "An explanation about the purpose of this instance.", 
+      "examples": [
+        "ET,BS,ES,EP"
+      ], 
+      "id": "/properties/sectorcode", 
+      "title": "The sectorcode schema.", 
+      "type": "string"
+    }, 
+    "source": {
+      "default": "IBRD", 
+      "description": "An explanation about the purpose of this instance.", 
+      "examples": [
+        "IBRD"
+      ], 
+      "id": "/properties/source", 
+      "title": "The source schema.", 
+      "type": "string"
+    }, 
+    "status": {
+      "default": "Active", 
+      "description": "An explanation about the purpose of this instance.", 
+      "examples": [
+        "Active"
+      ], 
+      "id": "/properties/status", 
+      "title": "The status schema.", 
+      "type": "string"
+    }, 
+    "supplementprojectflg": {
+      "default": "N", 
+      "description": "An explanation about the purpose of this instance.", 
+      "examples": [
+        "N"
+      ], 
+      "id": "/properties/supplementprojectflg", 
+      "title": "The supplementprojectflg schema.", 
+      "type": "string"
+    }, 
+    "theme1": {
+      "id": "/properties/theme1", 
+      "properties": {
+        "Name": {
+          "default": "Education for all", 
+          "description": "An explanation about the purpose of this instance.", 
+          "examples": [
+            "Education for all"
+          ], 
+          "id": "/properties/theme1/properties/Name", 
+          "title": "The name schema.", 
+          "type": "string"
+        }, 
+        "Percent": {
+          "default": 100, 
+          "description": "An explanation about the purpose of this instance.", 
+          "examples": [
+            "100"
+          ], 
+          "id": "/properties/theme1/properties/Percent", 
+          "title": "The percent schema.", 
+          "type": "integer"
+        }
+      }, 
+      "type": "object"
+    }, 
+    "theme_namecode": {
+      "id": "/properties/theme_namecode", 
+      "items": {
+        "id": "/properties/theme_namecode/items", 
+        "properties": {
+          "code": {
+            "default": "65", 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "65"
+            ], 
+            "id": "/properties/theme_namecode/items/properties/code", 
+            "title": "The code schema.", 
+            "type": "string"
+          }, 
+          "name": {
+            "default": "Education for all", 
+            "description": "An explanation about the purpose of this instance.", 
+            "examples": [
+              "Education for all"
+            ], 
+            "id": "/properties/theme_namecode/items/properties/name", 
+            "title": "The name schema.", 
+            "type": "string"
+          }
+        }, 
+        "type": "object"
+      }, 
+      "type": "array"
+    }, 
+    "themecode": {
+      "default": "65", 
+      "description": "An explanation about the purpose of this instance.", 
+      "examples": [
+        "65"
+      ], 
+      "id": "/properties/themecode", 
+      "title": "The themecode schema.", 
+      "type": "string"
+    }, 
+    "totalamt": {
+      "default": 130000000, 
+      "description": "An explanation about the purpose of this instance.", 
+      "examples": [
+        "130000000"
+      ], 
+      "id": "/properties/totalamt", 
+      "title": "The totalamt schema.", 
+      "type": "integer"
+    }, 
+    "totalcommamt": {
+      "default": 130000000, 
+      "description": "An explanation about the purpose of this instance.", 
+      "examples": [
+        "130000000"
+      ], 
+      "id": "/properties/totalcommamt", 
+      "title": "The totalcommamt schema.", 
+      "type": "integer"
+    }, 
+    "url": {
+      "default": "http://www.worldbank.org/projects/P129828/ethiopia-general-education-quality-improvement-project-ii?lang=en", 
+      "description": "An explanation about the purpose of this instance.", 
+      "examples": [
+        "http://www.worldbank.org/projects/P129828/ethiopia-general-education-quality-improvement-project-ii?lang=en"
+      ], 
+      "id": "/properties/url", 
+      "title": "The url schema.", 
+      "type": "string"
+    }
+  }, 
+  "type": "object"
+}
+
+
